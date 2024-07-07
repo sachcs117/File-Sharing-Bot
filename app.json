@@ -11,7 +11,7 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": "6666613382:AAGhZmtPJDywWnwXNc_ytEtisXE2_lGa6Nk"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
@@ -19,11 +19,11 @@
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": "20257749"
+      "value": ""
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "mongodb+srv://sachcs117:12345678r@cluster0.ucs28uw.mongodb.net/?retryWrites=true&w=majority"
+      "value": ""
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
@@ -31,15 +31,15 @@
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": "616180befe2fcc1614cb3b5b5545957d"
+      "value": ""
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-1002067147890"
+      "value": ""
     },
     "FORCE_SUB_CHANNEL":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "-1002067433051"
+      "value": ""
     },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
@@ -51,12 +51,12 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "6143946435",
-      "required": true
+      "value": "",
+      "required": false
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents from getting forwarded",
-      "value": "true",
+      "value": "True",
       "required": true
     }
   },
